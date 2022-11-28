@@ -10,8 +10,7 @@ services:
     # image: php:8.0-apache
     volumes:
       - ./php/src:/var/www/html/
-      - ./php/src/style
-      - ./php/src/templates
+      
     ports:
       - 8000:80
   db:

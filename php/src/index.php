@@ -132,6 +132,10 @@ $db="MYSQL_DATABASE";
                 
                 <div class="subscribe" id="footer-grid">
                 <div class="subcribe-contents">
+                    <div class="text">
+                        <p>Enter email and click Subscribe for the latest news letter</p>
+                    </div>
+                    <br>
                     <div class="wrapper">
                         <form action="" method="post">
                             <input  type="email" name="subscribe" id="email-text" >
@@ -139,13 +143,15 @@ $db="MYSQL_DATABASE";
                         </form>
                 </div>
                 <br>
-                    <div class="text">
-                        <p>Enter email and click Subscribe for the latest news letter</p>
-                    </div>
+                    
                     </div>
                 </div>
                 <div class="contacts" id="footer-grid">
-                    <div class="contacts-blocks">
+                <div class="contacts-contents">
+                <div class="text">
+                        <p>Enter email and click Subscribe for the latest news letter</p>
+                    </div>
+                <div class="contacts-blocks">
                        
                             <li><img src="" alt="" srcset=""></li>
                             <li><img src="" alt="" srcset=""></li>
@@ -153,18 +159,11 @@ $db="MYSQL_DATABASE";
                             <li><img src="" alt="" srcset=""></li>
                         
                     </div>
+    	        </div>
                 </div>
-                
-                
-
             </div>
-           
-        
-        
-        
-        
         </div>
-        <p>weSkate est. 2022</p>
+        <p>&copy; WeSkate Pty Ltd est 2021. All rights reserved</p>
     </div>
 </body>
 </html>
